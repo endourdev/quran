@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/search.css">
+    <script src="../assets/scripts/sendRequestToApi.js"></script>
+    <title>Quran - Recitations</title>
+</head>
+<body>  
+    <header>
+        <h1 id="maintitle">
+            Récitations Coran
+        </h1>
+    </header>
+    <main>
+        <form id="requestForm">
+            <label for="id">Récitateurs ( 1-175 )</label>
+            <input type="text" id="id" name="id" required>
+            <label for="chapter">Sourate ( 1-114 )</label>
+            <input type="text" id="chapter" name="chapter" required>
+            <button class="envoyer" type="submit">Récupérer</button>
+        </form>
+        <div id="resultats">
+            <!-- Les résultats de l'API seront affichés ici -->
+        </div>
+    </main>
+</body>
+</html>

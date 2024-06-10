@@ -42,7 +42,7 @@ function afficherResultats(data) {
         resultContainer.appendChild(audioButton); // Ajoute le bouton au conteneur de résultats
     } else {
         // Affiche un message d'erreur si l'URL audio est absente ou vide
-        resultContainer.textContent = 'L\'URL audio est absente ou vide dans la réponse de l\'API.';
+        resultContainer.textContent = "Une erreur est survenue, veuillez vérifiez votre entrée";
     }
 }
 

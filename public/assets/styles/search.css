@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222225; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur de texte blanc */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222226; /* Violet sombre pour l'en-tête */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+input[type="text"] {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 2%;
+    border: none;
+    background-color: #171618;
+    color: white;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 50px;
+}
+
+button:hover {
+    border: none;
+    background-color: #261c30;
+    color: white;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 50px; 
+}
